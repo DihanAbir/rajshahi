@@ -902,7 +902,8 @@ body .site-header {
 }
 
 .help-section .left-right-warp .right-img img {
-  transform: rotate(-1deg);
+  /* transform: rotate(-1deg); */
+  transform: scale(1.1);
 }
 
 .help-section .left-right-warp .left-cal .content {

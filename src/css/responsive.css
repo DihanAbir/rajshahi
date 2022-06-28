@@ -1552,8 +1552,46 @@
     transform: rotate(-2deg);
   }
 }
-@media only screen and (max-width: 1200px) {
-  .footer-details {
+@media (min-width: 768px) and (max-width: 1200px) {
+  body .site-footer {
     margin-top: -410px !important;
+  }
+}
+@media (min-width: 838px) and (max-width: 965px) {
+  .callender-height {
+    height: 276px;
+  }
+
+  .footer-logo-warp a {
+    margin-top: 30px;
+    max-width: 273px;
+  }
+  .footer-top-war .contect-details-box .contact-number {
+    padding-top: 29px;
+  }
+}
+@media (min-width: 768px) and (max-width: 837px) {
+  .callender-height {
+    height: 276px;
+  }
+
+  .footer-logo-warp a {
+    margin-top: 30px;
+    max-width: 273px;
+  }
+  .footer-top-war .contect-details-box .contact-number {
+    padding-top: 29px;
+  }
+}
+@media (min-width: 768px) and (max-width: 800px) {
+  .calendly-inline-widget,
+  .calendly-inline-widget *,
+  .calendly-badge-widget,
+  .calendly-badge-widget *,
+  .calendly-overlay,
+  .calendly-overlay * {
+    font-size: 16px;
+    line-height: 1.2em;
+    height: 292px !important;
   }
 }
